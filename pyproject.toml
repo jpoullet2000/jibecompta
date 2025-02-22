@@ -1,0 +1,22 @@
+[project]
+name = "jibecompta"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Jean-Baptiste Poullet",email = "jeanbaptistepoullet@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11,<4"
+dependencies = [
+    "tabula-py (>=2.10.0,<3.0.0)",
+    "jpype1 (>=1.5.2,<2.0.0)",
+    "pypdf2 (>=3.0.1,<4.0.0)",
+    "reportlab (>=4.3.1,<5.0.0)",
+    "pdfplumber (>=0.11.5,<0.12.0)",
+    "python-dotenv (>=1.0.1,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

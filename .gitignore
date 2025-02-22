@@ -169,3 +169,13 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# temporal files
+*.swp
+*.swo
+*.swm
+*.swl
+*.swn
+
+# temporary directories
+tmp/
